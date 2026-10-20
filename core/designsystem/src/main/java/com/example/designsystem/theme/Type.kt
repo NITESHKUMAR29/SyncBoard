@@ -1,4 +1,4 @@
-package com.example.syncboard.ui.theme
+package com.example.designsystem.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
@@ -6,8 +6,10 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.googlefonts.Font
 import androidx.compose.ui.text.googlefonts.GoogleFont
+import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
-import com.example.syncboard.R
+import com.example.designsystem.R
+
 
 val provider: GoogleFont.Provider = GoogleFont.Provider(
     providerAuthority = "com.google.android.gms.fonts",
@@ -35,21 +37,21 @@ val Typography = Typography(
         fontWeight = FontWeight.Bold,
         fontSize = 38.sp,
         lineHeight = 40.sp,
-        letterSpacing = (-0.01).sp
+        letterSpacing = (-0.01).em
     ),
     displayMedium = TextStyle(
         fontFamily = BricolageGrotesque,
         fontWeight = FontWeight.Bold,
         fontSize = 27.sp,
         lineHeight = 32.sp,
-        letterSpacing = (-0.01).sp
+        letterSpacing = (-0.01).em
     ),
     displaySmall = TextStyle(
         fontFamily = BricolageGrotesque,
         fontWeight = FontWeight.Bold,
-        fontSize = 22.sp,
+        fontSize = 24.sp,
         lineHeight = 28.sp,
-        letterSpacing = (-0.01).sp
+        letterSpacing = (-0.01).em
     ),
     titleLarge = TextStyle(
         fontFamily = BricolageGrotesque,

@@ -1,4 +1,4 @@
-package com.example.syncboard.ui.theme
+package com.example.designsystem.theme
 
 import androidx.compose.ui.graphics.Color
 
