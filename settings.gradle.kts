@@ -24,3 +24,10 @@ dependencyResolutionManagement {
 
 rootProject.name = "SyncBoard"
 include(":app")
+include(":core:designsystem")
+include(":feature:auth")
+include(":core:ui")
+include(":core:navigation")
+include(":core:network")
+include(":data")
+include(":domain")
