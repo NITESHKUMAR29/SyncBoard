@@ -16,7 +16,7 @@ class NetworkModule {
     @Singleton
     fun provideRetrofit(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("https://taskflow-backend-wzjw.onrender.com/api/v1")
+            .baseUrl("https://taskflow-backend-wzjw.onrender.com/api/v1/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
